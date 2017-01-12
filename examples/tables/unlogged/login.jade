@@ -3,7 +3,6 @@ html
   head
     link(rel='stylesheet', href="login.css")
   body
-    h1 se ve
     h2=formTitle
     form(id="loginForm", action="login", method="post")
       table
@@ -13,7 +12,7 @@ html
           td
             input(id="username", type="text", name="username", autofocus=true)
           td(rowspan=4)
-            img(src=formImg, style="height:128px")
+            img#test(src=formImg)
         tr
           td
             label=passwordLabel
