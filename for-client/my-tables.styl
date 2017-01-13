@@ -109,7 +109,17 @@ nowrap()
  
 .table-button img
   height 20px
+  padding 1px
+  -webkit-transform scale(1.0)
+  transform scale(1.0)
+  -webkit-transition .3s ease-in-out
+  transition .3s ease-in-out
 
+.table-button img:hover
+  -webkit-transform scale(1.2)
+  transform scale(1.2)
+  cursor pointer
+  
 .autoFilter
   background-color #d3daec
   width 30px
@@ -184,4 +194,69 @@ td.autoFilter button{
   font-size 90%
 
 .img-lupa
+  height 20px
+  -webkit-transform scale(1.0)
+  transform scale(1.0)
+  -webkit-transition .2s ease-in-out
+  transition .2s ease-in-out
+  
+.img-lupa:hover
   height 25px
+  cursor pointer
+  -webkit-transform scale(1.1)
+  transform scale(1.1)
+  -webkit-transition .2s ease-in-out
+  transition .3s ease-in-out
+  
+  
+.foot-info
+  color #FFF
+  font-weight 600
+  background-color #2f5097
+  border-right  2px solid #122348
+  border-bottom 2px solid #122348
+  border-left  2px solid #2f5097
+  border-top 2px solid #2f5097
+
+.foot-info:hover
+  color #FFF
+  background-color #0188cc
+  border-right  2px solid #036495
+  border-bottom 2px solid #036495
+  border-left  2px solid #0188cc
+  border-top 2px solid #0188cc
+  cursor pointer
+  
+.foot-info:active
+  color #FFF
+  background-color #082158
+  border-right  2px solid #2f5097
+  border-bottom 2px solid #2f5097
+  border-left  2px solid #122348
+  border-top 2px solid #122348
+  
+#button-filter
+  color #FFF
+  font-weight 600
+  background-color #2f5097
+  border-right  2px solid #122348
+  border-bottom 2px solid #122348
+  border-left  2px solid #2f5097
+  border-top 2px solid #2f5097
+
+#button-filter:hover
+  color #FFF
+  background-color #0188cc
+  border-right  2px solid #036495
+  border-bottom 2px solid #036495
+  border-left  2px solid #0188cc
+  border-top 2px solid #0188cc
+  cursor pointer
+  
+#button-filter:active
+  color #FFF
+  background-color #082158
+  border-right  2px solid #2f5097
+  border-bottom 2px solid #2f5097
+  border-left  2px solid #122348
+  border-top 2px solid #122348
