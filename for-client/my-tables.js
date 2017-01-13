@@ -1,5 +1,6 @@
 "use strict";
 
+
 var JSON4all = require('json4all');
 
 var changing = bestGlobals.changing;
