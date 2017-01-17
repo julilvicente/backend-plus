@@ -15,12 +15,12 @@ html
           td.iconostd
             img.iconoslog(src='iconousuario.png')
           td.formtd
-            input(id="username", type="text", name="username", autofocus=true)
+            input(id="username", type="text", name="username", autofocus=true, placeholder=usernameLabel)
         tr
           td.iconostd
             img.iconoslog(src='iconopass.png') 
           td.formtd    
-            input(id="password", type="password", name="password")
+            input(id="password", type="password", name="password" placeholder=passwordLabel)
         tr
           td(colspan=2)
             input.submit(type="submit", value=buttonLabel)
