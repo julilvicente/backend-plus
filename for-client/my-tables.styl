@@ -90,7 +90,7 @@ nowrap()
   background-color #ABC
   
 [io-status=error]
-  background-color #DAA
+  background-color #FF6666
 
 [io-status=temporal-ok]
   background-color #ADA
@@ -114,11 +114,19 @@ nowrap()
   transform scale(1.0)
   -webkit-transition .3s ease-in-out
   transition .3s ease-in-out
+  outline none !important
 
 .table-button img:hover
   -webkit-transform scale(1.2)
   transform scale(1.2)
   cursor pointer
+  outline none !important
+
+.table-button img:active
+  -webkit-transform scale(1.2)
+  transform scale(1.2)
+  cursor pointer
+  outline none !important
   
 .autoFilter
   background-color #d3daec
